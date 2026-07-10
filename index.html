@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ManiaMC | Resmi Web Sitesi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <button id="menu-toggle" class="menu-toggle-btn"><i class="fa-solid fa-bars"></i></button>
+
+    <nav id="sidebar" class="sidebar">
+        <div class="sidebar-brand">ManiaMC</div>
+        <ul class="sidebar-menu">
+            <li class="menu-item active" data-target="home-page"><i class="fa-solid fa-house"></i> Ana Sayfa</li>
+            <li class="menu-item" data-target="updates-page"><i class="fa-solid fa-bullhorn"></i> Güncellemeler</li>
+            <li class="menu-item" data-target="tierlist-page"><i class="fa-solid fa-crown"></i> Kit Tierlist</li>
+            <li class="menu-item" data-target="media-page"><i class="fa-solid fa-photo-film"></i> Medya & Sosyal Medya</li>
+            <li class="menu-item" data-target="staff-page"><i class="fa-solid fa-user-shield"></i> Yetkili Ekip</li>
+        </ul>
+    </nav>
+
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+    <div class="main-content">
+        <header class="hero">
+            <div class="container">
+                <div class="logo-container">
+                    <img src="src/logo.png" alt="ManiaMC" id="server-logo" class="server-logo">
+                </div>
+                <p id="server-motd">Yükleniyor...</p>
+                
+                <div class="ip-box">
+                    <span id="server-ip">play.maniamc.com</span>
+                    <button id="copy-btn" onclick="copyIP()"><i class="fa-regular fa-copy"></i> Kopyala</button>
+                </div>
+                <div id="copy-toast" class="toast">IP Adresi Kopyalandı!</div>
+            </div>
+        </header>
+
+        <main class="container">
+            
+            <section id="home-page" class="page-section active">
+                <div class="home-grid">
+                    <div class="updates-container">
+                        <h2><i class="fa-solid fa-bullhorn"></i> Son Başlıklar</h2>
+                        <div id="updates-list"></div>
+                    </div>
+                    <div class="about-container">
+                        <div class="panel-box">
+                            <h3 id="about-title">Hakkımızda</h3>
+                            <p id="about-text">Yükleniyor...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="updates-page" class="page-section">
+                <div class="panel-box">
+                    <h3><i class="fa-solid fa-bullhorn"></i> Sunucu Güncellemeleri</h3>
+                    <p style="color: #a4b0be; margin-bottom: 25px;">Sunucumuzdaki yenilikleri ve yamaları buradan inceleyebilirsiniz:</p>
+                    <div id="rich-updates-list" class="rich-updates-grid"></div>
+                </div>
+            </section>
+
+            <section id="tierlist-page" class="page-section">
+                <div class="tierlist-section">
+                    <h2><i class="fa-solid fa-trophy"></i> Sunucu Kit Sıralaması</h2>
+                    <p style="color: #a4b0be; margin-bottom: 20px;">Liderlik tablosunu görmek istediğiniz kiti seçin:</p>
+                    <div id="kit-tabs" class="tabs-container"></div>
+                    <div id="tierlist-container" class="list-container"></div>
+                </div>
+            </section>
+
+            <section id="media-page" class="page-section">
+                <div class="media-grid">
+                    <div class="panel-box">
+                        <h3>Sosyal Medya Hesaplarımız</h3>
+                        <div id="top-socials" class="social-links"></div>
+                    </div>
+                    <div class="panel-box">
+                        <h3><i class="fa-solid fa-video"></i> Medya Yayıncılarımız</h3>
+                        <div id="media-team-list" class="media-team-grid"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="staff-page" class="page-section">
+                <div class="panel-box">
+                    <h3><i class="fa-solid fa-user-shield"></i> Sunucu Yetkili Ekibi</h3>
+                    <div id="staff-team-list" class="staff-team-grid"></div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2026 ManiaMC. Tüm hakları saklıdır.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

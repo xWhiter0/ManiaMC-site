@@ -1,0 +1,45 @@
+{
+  "serverInfo": {
+    "name": "ManiaMC",
+    "ip": "play.maniamc.com",
+    "motd": "Türkiye'nin En Gelişmiş MultiCraft Sunucu Deneyimi!"
+  },
+  "about": {
+    "title": "ManiaMC Hakkında",
+    "text": "ManiaMC, oyuncularına en kesintisiz, adil ve eğlenceli BoxPvP deneyimini sunmak için kurulmuş gelişmiş bir MultiCraft sunucusudur. Aktif yetkili kadromuz, dengeli kit yapımız ve sürekli güncellenen sistemlerimizle topluluğumuza en iyi hizmeti vermeyi hedefliyoruz."
+  },
+  "updates": [
+    {
+      "title": "V2 Sezon Güncellemesi!",
+      "date": "10 Temmuz 2026",
+      "text": "Yeni ZeusKit yetenekleri dengelendi, DragonHideKB kitindeki geri tepme oranı optimize edildi ve maden alanları genişletildi!",
+      "image": "src/guncelleme1.png"
+    },
+    {
+      "title": "Sunucu Aktif!",
+      "date": "05 Temmuz 2026",
+      "text": "ManiaMC BoxPvP sunucumuz yeni altyapısıyla kapılarını açtı. Hepinize iyi eğlenceler dileriz.",
+      "image": "src/guncelleme2.png"
+    }
+  ],
+  "socials": [
+    { "name": "Discord", "url": "https://discord.gg/maniamc", "icon": "fab fa-discord" },
+    { "name": "YouTube", "url": "https://youtube.com/maniamc", "icon": "fab fa-youtube" },
+    { "name": "Instagram", "url": "https://instagram.com/maniamc", "icon": "fab fa-instagram" }
+  ],
+  "mediaTeam": [
+    { "name": "WhitePvP", "platform": "YouTube", "tagColor": "#00d2d3", "link": "https://youtube.com/c/whitepvp" },
+    { "name": "Hazal", "platform": "Twitch", "tagColor": "#9146ff", "link": "https://twitch.tv/hazal" }
+  ],
+  "staffTeam": [
+    { "name": "WhitePvP", "role": "Kurucu", "color": "#00d2d3" },
+    { "name": "Hazal", "role": "Yönetici", "color": "#ffa502" },
+    { "name": "AdminX", "role": "Admin", "color": "#2ed573" }
+  ],
+  "tierList": {
+    "Overall": [
+      { "name": "WhitePvP", "tier": "S TIER", "color": "#00d2d3" },
+      { "name": "Hazal", "tier": "S TIER", "color": "#00d2d3" }
+    ]
+  }
+}
