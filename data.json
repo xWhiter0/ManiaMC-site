@@ -10,16 +10,10 @@
   },
   "updates": [
     {
-      "title": "V2 Sezon Güncellemesi!",
-      "date": "10 Temmuz 2026",
-      "text": "Yeni ZeusKit yetenekleri dengelendi, DragonHideKB kitindeki geri tepme oranı optimize edildi ve maden alanları genişletildi!",
-      "image": "src/guncelleme1.png"
-    },
-    {
-      "title": "Sunucu Aktif!",
+      "title": "Sunucu Yakında!",
       "date": "05 Temmuz 2026",
       "text": "ManiaMC BoxPvP sunucumuz yeni altyapısıyla kapılarını açtı. Hepinize iyi eğlenceler dileriz.",
-      "image": "src/guncelleme2.png"
+      "image": "maniamclogo.png"
     }
   ],
   "socials": [
