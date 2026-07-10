@@ -22,8 +22,8 @@
     { "name": "Instagram", "url": "https://instagram.com/maniamc", "icon": "fab fa-instagram" }
   ],
   "mediaTeam": [
-    { "name": "WhitePvP", "platform": "YouTube", "tagColor": "#00d2d3", "link": "https://youtube.com/c/whitepvp" },
-    { "name": "Hazal", "platform": "Twitch", "tagColor": "#9146ff", "link": "https://twitch.tv/hazal" }
+    { "name": "kAn0x", "platform": "YouTube", "tagColor": "#00d2d3", "link": "www.youtube.com/@JustkAn0x" },
+    { "name": "Ardax", "platform": "YouTube", "tagColor": "#00d2d3", "link": "www.youtube.com/@Ardax1-b4i" }
   ],
   "staffTeam": [
     { "name": "kAn0x", "role": "Kurucu", "color": "#00d2d3" },
