@@ -11,14 +11,14 @@
   "updates": [
     {
       "title": "Sunucu Yakında!",
-      "date": "05 Temmuz 2026",
-      "text": "ManiaMC BoxPvP sunucumuz yeni altyapısıyla kapılarını açtı. Hepinize iyi eğlenceler dileriz.",
+      "date": "10 Temmuz 2026",
+      "text": "ManiaMC sunucumuz Yakında Sizlerle Olacak!",
       "image": "maniamclogo.jpg"
     }
   ],
   "socials": [
     { "name": "Discord", "url": "https://discord.gg/maniamc", "icon": "fab fa-discord" },
-    { "name": "YouTube", "url": "https://youtube.com/maniamc", "icon": "fab fa-youtube" },
+    { "name": "YouTube", "url": "https://youtube.com/maniamc1", "icon": "fab fa-youtube" },
     { "name": "Instagram", "url": "https://instagram.com/maniamc", "icon": "fab fa-instagram" }
   ],
   "mediaTeam": [
