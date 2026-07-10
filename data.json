@@ -32,9 +32,9 @@
     { "name": "Hazal", "platform": "Twitch", "tagColor": "#9146ff", "link": "https://twitch.tv/hazal" }
   ],
   "staffTeam": [
-    { "name": "WhitePvP", "role": "Kurucu", "color": "#00d2d3" },
-    { "name": "Hazal", "role": "Yönetici", "color": "#ffa502" },
-    { "name": "AdminX", "role": "Admin", "color": "#2ed573" }
+    { "name": "kAn0x", "role": "Kurucu", "color": "#00d2d3" },
+    { "name": "Ardax", "role": "Kurucu", "color": "#ffa502" },
+    { "name": "xWhiter0", "role": "Admin", "color": "#2ed573" }
   ],
   "tierList": {
     "Overall": [
