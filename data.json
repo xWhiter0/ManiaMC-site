@@ -27,7 +27,7 @@
   ],
   "staffTeam": [
     { "name": "kAn0x", "role": "Kurucu", "color": "#00d2d3" },
-    { "name": "Ardax", "role": "Kurucu", "color": "#ffa502" },
+    { "name": "Ardax", "role": "Kurucu", "color": "#00d2d3" },
     { "name": "xWhiter0", "role": "Admin", "color": "#2ed573" }
   ],
   "tierList": {
